@@ -1,0 +1,59 @@
+body {
+    background-image: url("http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-24.jpg");
+    background-repeat: repeat;
+}
+#raamatuList {
+    background-color: antiquewhite;
+    border:dotted;
+    border-radius: 10px;
+    box-shadow: aqua;
+    width:400px;
+    float:left;
+    margin-right: 15px;
+    white-space: normal;
+
+
+}
+#raamatuList li {
+    list-style-type: none;
+}
+#raamatuList h4{
+    text-align: center;
+    color:firebrick;
+    vertical-align: middle;
+    text-shadow: 3px 3px azure;
+    font-weight: bold;
+
+}
+a {
+
+    font-size: 2em;
+    text-align: center;
+    text-decoration:none;
+    border:solid black 2px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#lemmikList {
+padding-top: 20px;
+position:static;
+    font-family:Verdana;
+}
+#lemmikList ol{
+    border:solid black 1px;
+}
+#alvariPilt {
+    opacity: 0.5;
+    box-shadow: 10px 10px #000000;
+    height:235px;
+    width:352px
+}
+
+#info {
+    display:inline;
+}
+p {
+    min-width: 200px;
+    max-width: 500px;
+
+}
